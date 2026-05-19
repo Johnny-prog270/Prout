@@ -1,6 +1,6 @@
 # Examen d'entraînement LEPL1110 — Éléments Finis
 
-**Équipe pédagogique — Mai 2026**
+**Claude code — Mai 2026**
 
 ---
 
