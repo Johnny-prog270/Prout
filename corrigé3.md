@@ -49,12 +49,10 @@ $$EI\int_0^1 w''v''\,\mathrm{d}x = \int_0^1 qv\,\mathrm{d}x, \qquad \forall v \i
 
 Rappel : $\xi = (x - x_e)/h$, donc $\mathrm{d}/\mathrm{d}x = (1/h)\,\mathrm{d}/\mathrm{d}\xi$.
 
-| | $\varphi_1$ | $\varphi_2$ | $\varphi_3$ | $\varphi_4$ |
-|---|---|---|---|---|
-| $\varphi_i(0)$ | $1$ | $0$ | $0$ | $0$ |
-| $\varphi_i(1)$ | $0$ | $0$ | $1$ | $0$ |
-| $\frac{\mathrm{d}\varphi_i}{\mathrm{d}x}\big|_{\xi=0} = \frac{1}{h}\varphi_i'(0)$ | $0$ | $\frac{1}{h}\cdot h\cdot 1 = 1$ | $0$ | $0$ |
-| $\frac{\mathrm{d}\varphi_i}{\mathrm{d}x}\big|_{\xi=1} = \frac{1}{h}\varphi_i'(1)$ | $0$ | $0$ | $0$ | $\frac{1}{h}\cdot h\cdot 1 = 1$ |
+- $\varphi_1(0) = 1$, $\varphi_1(1) = 0$, $\varphi_1'(0)/h = 0$, $\varphi_1'(1)/h = 0$ ✓
+- $\varphi_2(0) = 0$, $\varphi_2(1) = 0$, $\frac{1}{h}\varphi_2'(0) = \frac{1}{h}\cdot h = 1$ ✓, $\varphi_2'(1)/h = 0$
+- $\varphi_3(0) = 0$, $\varphi_3(1) = 1$, $\varphi_3'(0)/h = 0$, $\varphi_3'(1)/h = 0$ ✓
+- $\varphi_4(0) = 0$, $\varphi_4(1) = 0$, $\varphi_4'(0)/h = 0$, $\frac{1}{h}\varphi_4'(1) = \frac{1}{h}\cdot h = 1$ ✓
 
 **Détail pour $\varphi_2$ :** $\varphi_2'(\xi) = h(1 - 4\xi + 3\xi^2)$, d'où $\varphi_2'(0) = h$ et $\frac{\mathrm{d}\varphi_2}{\mathrm{d}x}\big|_{\xi=0} = \frac{h}{h} = 1$. $\checkmark$
 
